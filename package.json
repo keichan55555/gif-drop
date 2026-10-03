@@ -8,7 +8,7 @@
   "scripts": {
     "vendor": "node scripts/copy-vendor.mjs",
     "start": "npm run vendor && electron .",
-    "dist:mac": "npm run vendor && electron-builder --mac --universal"
+    "dist:mac": "npm run vendor && electron-builder --mac --universal --publish never"
   },
   "dependencies": {
     "gif.js.optimized": "1.0.1"
