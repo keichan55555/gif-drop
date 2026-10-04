@@ -4,3 +4,5 @@ window.GIF_DROP_I18N={
 };
 Object.assign(window.GIF_DROP_I18N.ja,{reveal:'Finderで表示',saved:'GIFを保存しました。',saveError:'GIFを保存できませんでした。'});
 Object.assign(window.GIF_DROP_I18N.en,{reveal:'Show in Finder',saved:'GIF saved.',saveError:'The GIF could not be saved.'});
+Object.assign(window.GIF_DROP_I18N.ja,{quality:'色の精細さ',qualityHelp:'解像度は変えずに、GIFの色をどれだけ細かく再現するかを調整します。通常は「標準」がおすすめです。'});
+Object.assign(window.GIF_DROP_I18N.en,{quality:'Color detail',qualityHelp:'Controls how precisely GIF colors are reproduced without changing its dimensions. Balanced is recommended for most videos.'});
