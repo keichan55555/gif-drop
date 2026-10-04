@@ -1,7 +1,7 @@
 {
   "name": "gif-drop",
-  "version": "1.0.0",
-  "description": "動画をブラウザ内でGIFに変換するMacアプリ",
+  "version": "1.1.0",
+  "description": "範囲を選び、動画を美しいGIFへ変換するMacアプリ",
   "main": "electron/main.cjs",
   "author": "GIF DROP contributors",
   "license": "MIT",
@@ -31,6 +31,8 @@
     ],
     "mac": {
       "category": "public.app-category.video",
+      "icon": "build/icon.png",
+      "identity": null,
       "target": [
         {
           "target": "dmg",
