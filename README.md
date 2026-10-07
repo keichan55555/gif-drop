@@ -36,7 +36,7 @@ Build a universal DMG:
 npm run dist:mac
 ```
 
-Build artifacts are saved to `release/`. Pushing a tag such as `v1.1.2` triggers GitHub Actions to build the DMG and attach it to the corresponding GitHub Release.
+Build artifacts are saved to `release/`. Pushing a tag such as `v1.1.3` triggers GitHub Actions to build the DMG and attach it to the corresponding GitHub Release.
 
 ## License
 
