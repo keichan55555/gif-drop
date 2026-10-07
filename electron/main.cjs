@@ -15,8 +15,6 @@ function createWindow() {
     minHeight: 620,
     backgroundColor: '#090c11',
     title: 'GIF DROP',
-    titleBarStyle: 'hiddenInset',
-    trafficLightPosition: { x: 18, y: 18 },
     webPreferences: {
       preload: path.join(__dirname, 'preload.cjs'),
       contextIsolation: true,
