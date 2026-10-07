@@ -1,44 +1,43 @@
 # GIF DROP
 
-動画から好きな範囲を選び、解像度・フレームレート・品質を指定してGIFへ変換できるMacアプリです。動画は外部サーバーへアップロードせず、端末内だけで処理します。
+GIF DROP is a macOS app that turns a selected section of a video into a GIF. Choose the output size, frame rate, and color detail while keeping the entire conversion private and on-device—your video is never uploaded to an external server.
 
-## 主な機能
+## Features
 
-- サムネイル付きタイムラインでGIFにする範囲を指定
-- 320 / 480 / 720 / 1080 pxまたは元解像度を選択
-- FPSと品質を調整
-- 日本語・英語表示
-- 動画の読み込みからGIF完成までをつなぐモーションUI
-- Mac版では保存先を選び、保存したGIFをFinderで表示
-- 複数の動画を続けて変換
+- Select the exact GIF range on a thumbnail timeline
+- Choose 320, 480, 720, or 1080 px, or keep the original resolution
+- Adjust the frame rate and color detail
+- Switch between Japanese and English
+- Enjoy a polished motion-driven interface from import to export
+- Choose where to save the GIF and reveal it in Finder
+- Convert multiple videos in succession
 
-## Macにインストールする
+## Install on macOS
 
-GitHubの **Releases** から `GIF-DROP-*-universal.dmg` をダウンロードし、DMGを開いて `GIF DROP` をApplicationsフォルダへドラッグします。
+Download `GIF-DROP-*-universal.dmg` from [Releases](https://github.com/keichan55555/gif-drop/releases), open the DMG, and drag **GIF DROP** into the Applications folder.
 
-現時点の配布物はAppleによる署名・公証前です。初回起動時にmacOSが開発元を確認できない場合は、FinderでアプリをControlキーを押しながらクリックし、**開く** を選んでください。
+The current builds are not yet signed or notarized by Apple. If macOS cannot verify the developer on first launch, Control-click **GIF DROP** in Finder and choose **Open**.
 
-## 対応Mac
+## System Requirements
 
-- Apple Silicon（M1以降）
-- Intel Mac
-- macOS 12以降を推奨
+- Apple Silicon (M1 or newer) or Intel Mac
+- macOS 12 or later recommended
 
-## 開発
+## Development
 
 ```bash
 npm install
 npm start
 ```
 
-Universal DMGを作る場合：
+Build a universal DMG:
 
 ```bash
 npm run dist:mac
 ```
 
-生成物は `release/` に保存されます。`v1.0.0` のようなタグをGitHubへpushすると、GitHub ActionsがDMGを作り、Releasesへ自動添付します。
+Build artifacts are saved to `release/`. Pushing a tag such as `v1.1.2` triggers GitHub Actions to build the DMG and attach it to the corresponding GitHub Release.
 
-## ライセンス
+## License
 
 MIT
